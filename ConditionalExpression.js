@@ -2,5 +2,9 @@ let a = prompt("What's your age??");
 a = Number.parseInt(a);
 if (a>0)
 {
-  console.log("valid Age Input");
+  alert("valid Age Input");
+}
+else
+{
+ alert("Invalid Input");
 }
