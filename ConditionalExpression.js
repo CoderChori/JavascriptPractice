@@ -15,5 +15,6 @@ else if(a>9 && a<18)
 else 
 {
   alert("You can drive as you are 18 now");
-}
+
+console.log("You can", a<18? "Not Drive": "Drive");
 
